@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* INDEX */
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.barra-nav{
+    background: linear-gradient(90deg, rgba(62,61,71,1) 0%, rgb(13, 33, 66)) 35%, rgb(11,31,63) 100%;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.carousel-item img {
+    height: 420px;
+}
+.carrousel{
+    margin-top: 85px;
+}
+.prendas{
+    height: 417px;
+    width: 278px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.prendas:hover{
+    transform: scale(1.1);
+}
+
+
+.text-giftguide{
+    margin-left: 150px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .text-index{
+        text-align: center;
+    }
+    .carrousel img{
+        height: 200px;
+    }
+    
+}
